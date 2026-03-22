@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Página Inicial - IFSP</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 40px;
+        color: #000;
+        background-color: #fff;
+      }
+
+      h3 {
+        font-size: 1.1em;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        font-size: 1.4em;
+        margin-top: 30px;
+        margin-bottom: 15px;
+      }
+
+      .logo {
+        margin-bottom: 30px;
+      }
+
+      .evento-img {
+        max-width: 450px;
+        display: block;
+      }
+
+      .evento-legenda {
+        font-size: 0.9em;
+        margin-top: 5px;
+        margin-bottom: 30px;
+      }
+
+      .biblioteca-icone {
+        width: 90px;
+        display: block;
+        margin-bottom: 15px;
+      }
+
+      .biblioteca-destaque {
+        font-size: 1.1em;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .biblioteca-data {
+        font-size: 0.65em;
+        font-weight: bold;
+        margin-bottom: 30px;
+      }
+
+      /* Classe que ajusta o tamanho do vídeo e cria a borda preta */
+      .suap-iframe {
+        max-width: 450px;
+        width: 100%;
+        height: 250px;
+        display: block;
+        margin-bottom: 40px;
+        border: 1px solid #000;
+      }
+
+      .rodape-icones {
+        margin-bottom: 10px;
+      }
+
+      .rodape-icones img {
+        height: 35px;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+
+      .rodape-texto {
+        font-size: 0.8em;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="ifsp.png" alt="Instituto Federal São Paulo" />
+    </div>
+
+    <div class="secao-eventos">
+      <h3>Eventos</h3>
+      <img src="SEJA_RARO.jpg" alt="Palestra Seja Raro" class="evento-img" />
+      <p class="evento-legenda">
+        Aniversário do IFSP - Pirituba - Palestra Augusto Aielo
+      </p>
+    </div>
+
+    <div class="secao-biblioteca">
+      <h2>Sobre a Biblioteca</h2>
+      <img src="library.jpeg" alt="Ícone Biblioteca" class="biblioteca-icone" />
+      <p class="biblioteca-destaque">
+        Conheça os novos títulos disponíveis na nossa biblioteca
+      </p>
+      <p class="biblioteca-data">
+        Publicado: Quarta-feira, 14 de agosto de 2019
+      </p>
+    </div>
+
+    <div class="secao-suap">
+      <h2>Conheça o SUAP</h2>
+      <iframe
+        class="suap-iframe"
+        src="https://www.youtube.com/embed/1egUfDkqkaA"
+        title="Tutorial de Acesso - SUAP 1"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+        "
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="rodape">
+      <div class="rodape-icones">
+        <img src="MoveTop.png" alt="Voltar ao topo" />
+        <img src="facebook.png" alt="Facebook" />
+      </div>
+      <p class="rodape-texto">
+        IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP:
+        05110-000 - São Paulo/SP - Contato: (011) 2504-0100
+      </p>
+    </div>
+  </body>
+</html>
